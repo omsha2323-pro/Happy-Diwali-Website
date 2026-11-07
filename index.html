@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Happy Diwali</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            text-align: center;
+            color: white;
+            background: linear-gradient(135deg, #18002e, #a83200, #ff9d00);
+            min-height: 100vh;
+        }
+
+        .container {
+            padding: 70px 15px;
+        }
+
+        h1 {
+            color: #ffeb80;
+            font-size: 42px;
+            text-shadow: 0 0 15px orange;
+        }
+
+        .diya {
+            font-size: 100px;
+            animation: glow 2s infinite alternate;
+        }
+
+        @keyframes glow {
+            from { text-shadow: 0 0 10px orange; }
+            to { text-shadow: 0 0 40px yellow; }
+        }
+
+        p {
+            font-size: 19px;
+            line-height: 1.6;
+        }
+
+        button {
+            background: gold;
+            color: #550000;
+            border: none;
+            padding: 14px 25px;
+            border-radius: 25px;
+            font-size: 17px;
+            font-weight: bold;
+        }
+
+        footer {
+            margin-top: 60px;
+            color: #ffe5a0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="diya">🪔</div>
+
+        <h1>Happy Diwali!</h1>
+
+        <h2>✨ Festival of Lights ✨</h2>
+
+        <p>
+            May your life shine with happiness,
+            success, love and prosperity.
+        </p>
+
+        <button onclick="celebrate()">
+            Celebrate Diwali 🎉
+        </button>
+
+        <footer>
+            <p>Created by OM Sharma ❤️</p>
+        </footer>
+    </div>
+
+    <script>
+        function celebrate() {
+            alert("🪔 Happy Diwali! 🪔");
+        }
+    </script>
+</body>
+  </html>
+  
